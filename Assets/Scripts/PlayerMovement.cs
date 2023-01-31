@@ -2,10 +2,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 10f;
-
-    public bool flipH;
-    public bool flipV;
+    public float moveSpeed = 10f;
+    public float rotateSpeed = 150f;
 
     Rigidbody rb;
 
@@ -16,9 +14,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        var h = Input.GetAxis("Horizontal") * speed * (flipH ? -1 : 1);
-        var v = Input.GetAxis("Vertical") * speed * (flipV ? -1 : 1);
+        var h = Input.GetAxis("Horizontal");
+        var v = Input.GetAxis("Vertical");
 
-        rb.velocity = new Vector3(v, rb.velocity.y, h);
+        rb.velocity = v * transform.forward * moveSpeed;
+        transform.Rotate(Vector3.up * h * rotateSpeed * Time.deltaTime);
     }
 }
