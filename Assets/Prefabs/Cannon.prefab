@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDelay: 1
-  repeatRate: 0.5
+  repeatRate: 1
 --- !u!1001 &1235004203458331987
 PrefabInstance:
   m_ObjectHideFlags: 0
