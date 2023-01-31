@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8669ea9e-c402-48cf-bb2d-ae500a682cd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ocean_Jogos3D_24_e_31_01_2023/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ocean_Jogos3D_24_e_31_01_2023/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ocean_Jogos3D_24_e_31_01_2023/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-    </list>
+    <list default="true" id="8669ea9e-c402-48cf-bb2d-ae500a682cd7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674570764624</updated>
       <workItem from="1674570778012" duration="517000" />
+      <workItem from="1675167584553" duration="2000" />
     </task>
     <servers />
   </component>
