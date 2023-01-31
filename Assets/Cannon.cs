@@ -33,6 +33,8 @@ public class Cannon : MonoBehaviour
         // Esse objeto recebido pode ser tanto um Prefab (que está na aba Projects) ou um GameObject,
         // que está na cena.
         // Assim que o Instantiate é executado, recebemos como retorno o objeto que foi clonado
+        // Quando queremos instanciar objetos na mesma posição e rotação do que o original, precisamos
+        // informar esses valores
 
         var bulletClone = Instantiate(
             bulletOriginal,
