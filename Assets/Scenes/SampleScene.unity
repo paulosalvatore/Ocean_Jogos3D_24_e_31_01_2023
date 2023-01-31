@@ -1579,7 +1579,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1902795669187520, guid: 6fb840e833a0f2049b655aba4bf98513, type: 3}
       propertyPath: m_Name
-      value: SM_PolygonPrototype_Primitive_Tube_01P
+      value: Cannon
       objectReference: {fileID: 0}
     - target: {fileID: 4420830335550748, guid: 6fb840e833a0f2049b655aba4bf98513, type: 3}
       propertyPath: m_RootOrder
@@ -3420,7 +3420,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1808265353395088, guid: 296b6c6ad62626c48aef7fa6c5e2a9a8, type: 3}
       propertyPath: m_Name
-      value: SM_PolygonPrototype_Primitive_Sphere_01P
+      value: Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808265353395088, guid: 296b6c6ad62626c48aef7fa6c5e2a9a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4813550475596240, guid: 296b6c6ad62626c48aef7fa6c5e2a9a8, type: 3}
       propertyPath: m_RootOrder
@@ -3513,6 +3517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c33d9d1381acf478d170dd064e0c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direction: {x: 0, y: 1, z: 0}
+  forceSpeed: 1200
 --- !u!1001 &1261249977
 PrefabInstance:
   m_ObjectHideFlags: 0
